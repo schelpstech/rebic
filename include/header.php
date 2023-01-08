@@ -70,7 +70,7 @@
                                         Watch Live
                                     </span>
                                 </a>
-                                <a class="btn btn--sm btn--primary type--uppercase" href="#">
+                                <a class="btn btn--sm btn--primary type--uppercase" href="https://portal.rebic.org.ng">
                                     <span class="btn__text">
                                         Church Portal
                                     </span>
