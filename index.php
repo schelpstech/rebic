@@ -195,37 +195,44 @@ include "./include/header.php";
                 </div>
                 <div class="col-md-4">
                     <div class="feature feature-8">
-                        <img alt="Image" src="./asset/img/app/bishop.png" />
+                        <img alt="Image" src="./asset/img/app/bishop_olaniyi.png" />
                         <h5>Bishop Olaniyi Olagboye</h5>
                         <span>Deputy General Overseer</span>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature feature-8">
-                        <img alt="Image" src="./asset/img/app/rev mother.jpg" />
+                        <img alt="Image" src="./asset/img/app/rev_mrs.png" />
                         <h5>Rev Mother Bola Dejo- Olagboye</h5>
                         <span>Director of School - REBICO</span>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="feature feature-8">
-                        <img alt="Image" src="./asset/img/app/okunlola.jpg" />
+                        <img alt="Image" src="./asset/img/app/ago_finance_new.png" />
                         <h5>Rev Okunlola Samuel</h5>
-                        <span>Assitant General Overseer - Finance</span>
+                        <span>Assistant General Overseer - Finance</span>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="feature feature-8">
-                        <img alt="Image" src="./asset/img/app/oluwajobi.jpg" />
+                        <img alt="Image" src="./asset/img/app/ago_admin.png" />
+                        <h5>Rev Akinola Bolarinwa</h5>
+                        <span>Assistant General Overseer - Admin</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature feature-8">
+                        <img alt="Image" src="./asset/img/app/ago_secretary.png" />
                         <h5>Rev Michael Oluwajobi</h5>
-                        <span>Assitant General Overseer - Secretary</span>
+                        <span>Assistant General Overseer - Secretary</span>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="feature feature-8">
-                        <img alt="Image" src="./asset/img/app/oyebode.jpg" />
+                        <img alt="Image" src="./asset/img/app/ago_project.png" />
                         <h5>Rev Ezekiel Oyebode</h5>
-                        <span>Assitant General Overseer - Special Projects</span>
+                        <span>Assistant General Overseer - Special Projects</span>
                     </div>
                 </div>
 

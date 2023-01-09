@@ -6,6 +6,7 @@
         <title>REBIC : Reconciliation Bible Church</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="The official website of Reconciliation Bible Church">
+        <link rel="icon" type="image/png" sizes="32x32" href="./asset/img/app/rebiclogo.png">
         <link href="./asset/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="./asset/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="./asset/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
@@ -65,7 +66,7 @@
                         </div>
                         <div class="col-lg-5 text-right text-left-xs text-left-sm order-lg-3">
                             <div class="bar__module">
-                                <a class="btn btn--sm type--uppercase" href="#">
+                                <a class="btn btn--sm type--uppercase" href="https://www.facebook.com/reconciliationbible.ch/">
                                     <span class="btn__text">
                                         Watch Live
                                     </span>
