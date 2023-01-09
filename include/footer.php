@@ -10,7 +10,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="./pages/location.htm">
                                 <span>Locations</span>
                             </a>
                         </li>
