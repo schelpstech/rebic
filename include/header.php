@@ -28,7 +28,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-3 col-md-2">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img class="logo logo-dark" alt="logo" src="./asset/img/app/logo.png" />
                                 <img class="logo logo-light" alt="logo" src="./asset/img/app/logo.png" />
                             </a>
@@ -49,7 +49,7 @@
                     <div class="row">
                         <div class="col-lg-2 text-center text-left-sm hidden-xs order-lg-2">
                             <div class="bar__module">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img class="logo logo-dark" alt="logo" src="./asset/img/app/logo.png" />
                                     <img class="logo logo-light" alt="logo" src="./asset/img/app/logo.png"/>
                                 </a>
@@ -66,7 +66,7 @@
                         </div>
                         <div class="col-lg-5 text-right text-left-xs text-left-sm order-lg-3">
                             <div class="bar__module">
-                                <a class="btn btn--sm type--uppercase" href="https://www.facebook.com/reconciliationbible.ch/">
+                                <a class="btn btn--sm type--uppercase" href="./live.php">
                                     <span class="btn__text">
                                         Watch Live
                                     </span>

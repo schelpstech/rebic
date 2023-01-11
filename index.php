@@ -322,122 +322,49 @@ include "./include/header.php";
         </div>
         <!--end of container-->
     </section>
-
-    <section class="pricing bg--secondary">
+    <?php
+    include "./include/giving.php";
+    ?>
+    <section class="switchable ">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-6">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-6">
-                            <div class="feature feature-6">
-                                <i class="icon icon--sm icon-Post-Mail2 color--primary"></i>
-                                <h5>Tithe</h5>
-                                <p>
-                                    Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts,... Malachi 3 vs 10
-                                </p>
-                            </div>
-                            <!--end feature-->
-                        </div>
-                        <div class="col-lg-5 col-md-6">
-                            <div class="feature feature-6">
-                                <i class="icon icon--sm icon-Post-Mail2 color--primary"></i>
-                                <h5>Worship Offering</h5>
-                                <p>
-                                    ... in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles: and they shall not appear before the LORD empty: Deuteronomy 16:16
-                                </p>
-                            </div>
-                            <!--end feature-->
-                        </div>
-                        <div class="col-lg-5 col-md-6">
-                            <div class="feature feature-6">
-                            <i class="icon icon--sm icon-Post-Mail2 color--primary"></i>
-                                <h5>Thanksgiving Offering</h5>
-                                <p>
-                                    He who offers a sacrifice of thanksgiving honors Me; And to him who orders his way aright, I shall show the salvation of God. Psalm 50:23
-                                </p>
-                            </div>
-                            <!--end feature-->
-                        </div>
-                        <div class="col-lg-5 col-md-6">
-                            <div class="feature feature-6">
-                                <i class="icon icon--sm icon-Post-Mail2 color--primary"></i>
-                                <h5>Prophet Offering</h5>
-                                <p>
-                                    If we have sown unto you spiritual things, is it a great thing if we shall reap your carnal things? 1 Corinthians 9:11
-                                </p>
-                            </div>
-                            <!--end feature-->
-                        </div>
-                    </div>
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.7449710917385!2d3.2012649147722407!3d6.800849495084497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103ba36148db7e95%3A0x49236cafca60d20e!2sReconciliation%20Bible%20Church%20-%20REBIC!5e0!3m2!1sen!2sng!4v1673214665063!5m2!1sen!2sng" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-md-6 col-lg-4 col-12">
-                    <div class="pricing pricing-1 boxed boxed--border boxed--lg text-center">
-                        
-                        <p style="text-align: right;">
-                            <strong>Account Number :</strong> 0120217979<br>
-                            <strong>Account Name :</strong>  Reconciliation Bible Church<br>
-                            <strong>Account Bank :</strong> Wema Bank
+                <div class="col-md-6 col-12">
+                    <div class="text-block">
+                        <p class="lead">
+                            Email:
+                            <a href="mailto:hello@rebic.org.ng">hello@rebic.org.ng</a>
+                            <br /> Phone: +234 8023287142
                         </p>
-                        <p style="text-align: left;">
-                            <strong>Account Number :</strong> 0034618134<br>
-                            <strong>Account Name :</strong>  Reconciliation Bible Church<br>
-                            <strong>Account Bank :</strong> Access Bank
+                        <p class="lead">
+                            We look forward to hearing from you .
                         </p>
-                        <span class="label">Online Giving</span>
-                        <a class="btn btn--primary" href="#">
-                            <span class="btn__text">
-                                Pay Online with ATM Card
-                            </span>
-                        </a>
                     </div>
-                    <!--end pricing-->
+                    <form class="form-email row mx-0" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+                        <div class="col-md-6 col-12">
+                            <label>Your Name:</label>
+                            <input type="text" name="name" class="validate-required" />
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <label>Email Address:</label>
+                            <input type="email" name="email" class="validate-required validate-email" />
+                        </div>
+                        <div class="col-md-12 col-12">
+                            <label>Message:</label>
+                            <textarea rows="3" name="Message" class="validate-required"></textarea>
+                        </div>
+                        <div class="col-md-5 col-lg-4 col-6">
+                            <button type="submit" class="btn btn--primary type--uppercase">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
             <!--end of row-->
         </div>
         <!--end of container-->
     </section>
-
-    <section class="switchable ">
-                                <div class="container">
-                                    <div class="row justify-content-between">
-                                        <div class="col-md-5">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.7449710917385!2d3.2012649147722407!3d6.800849495084497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103ba36148db7e95%3A0x49236cafca60d20e!2sReconciliation%20Bible%20Church%20-%20REBIC!5e0!3m2!1sen!2sng!4v1673214665063!5m2!1sen!2sng" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <div class="text-block">
-                                                <p class="lead">
-                                                    Email:
-                                                    <a href="mailto:hello@rebic.org.ng">hello@rebic.org.ng</a>
-                                                    <br /> Phone: +234 8023287142 
-                                                </p>
-                                                <p class="lead">
-                                                    We look forward to hearing from you .
-                                                </p>
-                                            </div>
-                                            <form class="form-email row mx-0" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
-                                                <div class="col-md-6 col-12">
-                                                    <label>Your Name:</label>
-                                                    <input type="text" name="name" class="validate-required" />
-                                                </div>
-                                                <div class="col-md-6 col-12">
-                                                    <label>Email Address:</label>
-                                                    <input type="email" name="email" class="validate-required validate-email" />
-                                                </div>
-                                                <div class="col-md-12 col-12">
-                                                    <label>Message:</label>
-                                                    <textarea rows="3" name="Message" class="validate-required"></textarea>
-                                                </div>
-                                                <div class="col-md-5 col-lg-4 col-6">
-                                                    <button type="submit" class="btn btn--primary type--uppercase">Submit</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <!--end of row-->
-                                </div>
-                                <!--end of container-->
-                            </section>
     <?php
     include "./include/footer.php";
     ?>
