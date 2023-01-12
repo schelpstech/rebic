@@ -65,12 +65,18 @@
                             <!--end module-->
                         </div>
                         <div class="col-lg-5 text-right text-left-xs text-left-sm order-lg-3">
-                            <div class="bar__module">
-                                <a class="btn btn--sm type--uppercase" href="./live.php">
-                                    <span class="btn__text">
-                                        Watch Live
-                                    </span>
-                                </a>
+                        
+                                    <div class="modal-instance">
+	<a class="btn type--uppercase modal-trigger" href="#">
+		<span class="btn__text">
+			▶ Watch Live Service
+		</span>
+	</a>
+	<div class="modal-container">
+		<div class="modal-content bg-dark" data-width="80%" data-height="80%">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Freconciliationbible.ch%2Fvideos%2F689501062805274%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+		</div><!--end of modal-content-->
+	</div><!--end of modal-container-->
                                 <a class="btn btn--sm btn--primary type--uppercase" href="https://portal.rebic.org.ng">
                                     <span class="btn__text">
                                         Church Portal
