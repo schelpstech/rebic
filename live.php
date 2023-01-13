@@ -5,18 +5,50 @@ include "./include/header.php";
 <div class="main-container">
     <section>
         <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8">
+                    <p class="lead">
+                        Stack works with leading brands and nonprofits to deliver bold and affecting video advertising campaigns. See recently completed works below.
+                    </p>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <section>
+        <div class="container">
             <div class="masonry">
+                <div class="masonry-filter-container row align-items-center">
+                    <span>Category:</span>
+                    <div class="masonry-filter-holder">
+                        <div class="masonry__filters" data-filter-all-text="All Categories"></div>
+                    </div>
+                </div>
                 <!--end masonry filters-->
                 <div class="masonry__container row">
-                    <div class="masonry__item col-md-12 col-12" data-masonry-filter="Television">
-                        <div class="video-cover border--round">
-                            <div class="background-image-holder">
-                                <img alt="image" src="img/blog-1.jpg" />
+                    <?php
+                    if (!empty($sermon_list)) {
+                        foreach ($sermon_list as $data) {
+                    ?>
+                            <div class="masonry__item col-md-4 col-12" data-masonry-filter="Television">
+                                <div class="video-cover border--round">
+                                    <div class="background-image-holder">
+                                        <img alt="image" src="./asset/img/app/watch.jpg" />
+                                    </div>
+                                    <div class="video-play-icon"></div>
+                                    <?php echo ucwords($data['link']) ?>
+                                </div>
+                                <!--end video cover-->
+                                <span class="h4 inline-block"><?php echo ucwords($data['title'])  ?></span><br>
+                                <strong><span><?php echo ucwords($data['preacher'])  ?></span></strong><br>
+                                <span><?php echo ucwords($data['sermon_date'])  ?></span>
                             </div>
-                            <div class="video-play-icon"></div>
-                            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Freconciliationbible.ch%2Fvideos%2F689501062805274%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-                        </div>
-                    </div> 
+
+                    <?php
+                        }
+                    }
+                    ?>
                 </div>
                 <!--end masonry container-->
             </div>
