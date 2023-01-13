@@ -24,7 +24,18 @@ $tblName = 'sermon_repo_tbl';
 $conditions = array(
     'return_type' => 'single',
     'where' => array(
-        'sermon_status ' => 1,
+        'sermon_status' => 1,
     ),
 );
 $featured_sermon = $model->getRows($tblName, $conditions);
+
+
+//Select All Born this month 
+$tblName = 'member_list';
+$conditions = array(
+    'where' => array(
+        'substr(dateofbirth,6,2)' => date("m"),
+    ),
+    'order_by' => 'substr(dateofbirth,9,2) ASC',
+);
+$monthly_celebrant = $model->getRows($tblName, $conditions);

@@ -322,6 +322,60 @@ include "./include/header.php";
         </div>
         <!--end of container-->
     </section>
+
+    <section class="elements-title space--xxs text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6 class="type--uppercase">Birthday Celebrants for the  Month of <?php echo $utility->month_in_words(date("m")) ?>
+                        <i class="stack-down-dir"></i>
+                    </h6>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <section class="text-center ">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="slider" data-paging="true">
+                        <ul class="slides">
+                            <?php
+                            if (!empty($monthly_celebrant)) {
+                                foreach ($monthly_celebrant as $data) {
+                            ?>
+                                    <li class="col-md-4 col-12">
+                                        <div class="product">
+                                            <a href="#">
+                                                <img alt="Image" src="https://portal.rebic.org.ng/storage/passport/<?php echo $data['passport']?>" />
+                                            </a>
+                                            <a class="block" href="#">
+                                                <div>
+                                                    <h5><?php echo ucfirst($data['lastname'].' '.$data['firstname'])  ?></h5>
+                                                </div>
+                                                <div>
+                                                    <span class="h4 inline-block">Date : <?php echo $utility->month_in_words(date("m")).' '. substr($data['dateofbirth'],8,2)?> </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            <?php
+                                }
+                            }else{
+                                echo 'No Celebrant';
+                            }
+                            ?>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end of container-->
+    </section>
     <?php
     include "./include/giving.php";
     ?>
