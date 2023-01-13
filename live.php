@@ -8,7 +8,7 @@ include "./include/header.php";
             <div class="row">
                 <div class="col-md-10 col-lg-8">
                     <p class="lead">
-                        Stack works with leading brands and nonprofits to deliver bold and affecting video advertising campaigns. See recently completed works below.
+                        Watch live changing messages and be blessed by God's word
                     </p>
                 </div>
             </div>
@@ -19,12 +19,7 @@ include "./include/header.php";
     <section>
         <div class="container">
             <div class="masonry">
-                <div class="masonry-filter-container row align-items-center">
-                    <span>Category:</span>
-                    <div class="masonry-filter-holder">
-                        <div class="masonry__filters" data-filter-all-text="All Categories"></div>
-                    </div>
-                </div>
+                
                 <!--end masonry filters-->
                 <div class="masonry__container row">
                     <?php

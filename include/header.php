@@ -60,19 +60,24 @@ include "./app/query.php";
                         </div>
                         <!--end module-->
                     </div>
-                    <div class="col-lg-5 order-lg-1">
+                    <div class="col-lg-3 order-lg-1">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-
+                           
                             </ul>
                         </div>
                         <!--end module-->
                     </div>
-                    <div class="col-lg-5 text-right text-left-xs text-left-sm order-lg-3">
+                    <div class="col-lg-7 text-right text-left-xs text-left-sm order-lg-3">
 
                         <div class="modal-instance">
-                            <a class="btn type--uppercase modal-trigger" href="#">
+                            <a class="btn btn--sm btn--warning type--uppercase" href="./live.php">
                                 <span class="btn__text" style="color: black;">
+                                ▶ Watch Sermons
+                                </span>
+                            </a>
+                            <a class="btn type--uppercase modal-trigger" href="#">
+                                <span class="btn__text" style="color: red;">
                                     ▶ Watch Live Service
                                 </span>
                             </a>
