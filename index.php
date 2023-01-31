@@ -100,7 +100,7 @@ include "./include/header.php";
             <div class="row justify-content-between">
                 <div class="col-md-6 col-lg-5">
                     <ul class="accordion accordion-1 accordion--oneopen">
-                        <li class="active">
+                        <li >
                             <div class="accordion__title">
                                 <span class="h5">Our Fundamental Beliefs - Scriptures</span>
                             </div>
@@ -123,7 +123,7 @@ include "./include/header.php";
                                 </small>
                             </div>
                         </li>
-                        <li>
+                        <li class="active">
                             <div class="accordion__title">
                                 <span class="h5">Our Fundamental Beliefs - Christian Lifestyle</span>
                             </div>
@@ -162,7 +162,7 @@ include "./include/header.php";
                     <!--end accordion-->
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <img src="./asset/img/app/conference.jpg" alt="Image">
+                    <img src="./asset/img/app/pastors.jpg" alt="Image">
                 </div>
             </div>
             <!--end of row-->
@@ -353,7 +353,8 @@ include "./include/header.php";
                                             </a>
                                             <a class="block" href="#">
                                                 <div>
-                                                    <h5><?php echo ucfirst($data['lastname'].' '.$data['firstname'])  ?></h5>
+                                                    <h5><?php echo ucfirst($data['lastname'].' '.$data['firstname'])  ?></h5><br>
+                                                   <i> <h5><?php echo ucfirst($data['assembly_name']) ?></h5></i>
                                                 </div>
                                                 <div>
                                                     <span class="h4 inline-block">Date : <?php echo $utility->month_in_words(date("m")).' '. substr($data['dateofbirth'],8,2)?> </span>

@@ -37,5 +37,8 @@ $conditions = array(
         'substr(dateofbirth,6,2)' => date("m"),
     ),
     'order_by' => 'substr(dateofbirth,9,2) ASC',
+    'joinl' => array(
+        'assembly_tbl' => ' on member_list.assemblyid = assembly_tbl.assembly_id',
+    ),
 );
 $monthly_celebrant = $model->getRows($tblName, $conditions);
